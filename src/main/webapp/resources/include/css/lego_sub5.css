@@ -1,0 +1,90 @@
+body{
+    background-color: #1d1d1d;
+}
+
+/* MAIN *//* MAIN *//* MAIN *//* MAIN *//* MAIN */
+/* MAIN *//* MAIN *//* MAIN *//* MAIN *//* MAIN */
+div.neonsign{
+    min-width: 800px;
+    font-weight: 300;
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 2px #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 160px 0;
+    cursor: crosshair;
+}
+div.neonsign:hover>h3>.zzz{
+    font-weight: 700;
+    color: #000;
+    transition: 0.5s;
+    text-shadow: 20px 10px 8px rgba(255,255,255,0.5), 0 0px 8px #fff, -20px -10px 8px rgba(255,255,255,0.5);
+}
+
+.neon:hover{
+    font-weight: 700;
+    color: #000;
+    text-shadow: 0 0 8px #fff, 0 0 12px #fff, 0 0 4px #fff;
+}
+div.main{
+    position: relative;
+    min-width: 800px;
+}
+div.main>.mnimg{
+    height: 90vh;
+}
+div.mn01>.mnimg{
+    background-image: url(../img/lego_sub5_kids_z.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.mn02>.mnimg{
+    background-image: url(../img/lego_sub5_adults.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.main>.imgBlack{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50%; height: 40vh;
+    min-width: 520px;
+    position: absolute;
+    margin: auto;
+    top: 0;bottom: 0;left: 0;right: 0;
+    cursor: pointer;
+}
+div.main>.imgBlack:hover{
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.75);
+    transition: 1s;
+}
+div.main>.imgBlack:hover~.btns>button{
+    box-shadow: 0 0 20px #fff, inset 0px 0px 20px #fff;
+}
+
+div.main>.btns>button:hover{
+    text-shadow: -2px 4px 8px #fff, 2px -2px 8px #fff, 2px 4px 8px #fff, -2px -4px 8px #fff;
+    background-color: rgba(0,0,0,0.5);
+    transition: 0.3s;
+    transform: rotate(5deg);
+}
+div.main>.btns>button{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+    text-shadow: -2px 0px 4px #fff, 0px 0px 4px #fff, 2px 0px 4px #fff;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #fff, inset 0px 0px 10px #fff;
+    background-color: rgba(0,0,0,0);
+    width: 15%; min-width: 160px; height: 120px;
+    position: absolute;
+    margin: auto;
+    top: 0;bottom: 0;left: 0;right: 0;
+    cursor: pointer;
+}

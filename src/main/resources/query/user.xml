@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.dnb.client.user.dao.UserDao">
+
+	
+	<!-- 회원가입 -->
+	<!-- <insert id="joinCheck" parameterType="user">
+		insert into dnb_user(user_no, user_id, user_name, user_passwd, 
+							 user_phone, user_birth, user_email, user_add)
+		values(
+			dnb_user_seq.nextval, 
+			#{user_id}, 
+			#{user_name}, 
+			#{user_passwd}, 
+			#{user_phone}, 
+			#{user_birth},
+			#{user_email}, 
+			#{user_add}
+		)
+	</insert>
+	
+	로그인
+	<select id="loginCheck" parameterType="user" resultType="user">
+		SELECT
+			user_name, user_id, user_email, user_joindate, user_birth
+		FROM dnb_user
+		WHERE user_id = #{user_id} 
+			and user_passwd = #{user_passwd}
+	</select>
+	
+	회원수정
+	<update id="updateCheck" parameterType="user">
+		UPDATE dnb_user SET
+			user_passwd = #{user_passwd},
+			user_add = #{user_add},
+			user_phone = #{user_phone}
+		WHERE user_id = #{user_id}
+	</update>
+	
+	아이디 찾기
+	<select id="idFindAfter" parameterType="user" resultType="user">
+		SELECT
+			user_id
+		FROM dnb_user
+		WHERE user_name = #{user_name} and user_email = #{user_email}
+	</select>
+	
+	비밀번호 찾기
+	<select id="pwdFindAfter" parameterType="user" resultType="user">
+		SELECT
+			REGEXP_REPLACE(user_passwd, '....', '****', 3,1)as user_passwd
+		FROM dnb_user
+		WHERE user_id = #{user_id} and user_email = #{user_email}
+	</select> -->
+</mapper>

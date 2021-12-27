@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<!-- <typeAlias type="com.spring.dnb.client.board.notice.vo.NoticeVO" alias="notice"/>
+		<typeAlias type="com.spring.dnb.client.user.vo.UserVO" alias="user"/>
+		<typeAlias type="com.spring.dnb.client.board.free.vo.FreeVO" alias="free"/>
+		<typeAlias type="com.spring.dnb.client.board.free.reply.vo.ReplyVO" alias="reply"/>
+		<typeAlias type="com.spring.dnb.client.board.event.vo.EventVO" alias="event"/>
+		<typeAlias type="com.spring.dnb.client.board.event.vo.EventVO" alias="about"/>
+		<typeAlias type="com.spring.dnb.client.board.faq.vo.FaqVO" alias="faq"/>
+		<typeAlias type="com.spring.dnb.client.board.suggestion.vo.SuggestionVO" alias="suggestion"/> -->
+	</typeAliases>
+</configuration>

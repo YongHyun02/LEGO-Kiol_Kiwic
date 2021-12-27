@@ -1,0 +1,493 @@
+body{
+    background-color: #1d1d1d;
+}
+
+/*MAIN*//*MAIN*//*MAIN*//*MAIN*//*MAIN*/
+/*MAIN*//*MAIN*//*MAIN*//*MAIN*//*MAIN*/
+div.mainWrap{}
+div.mainWrap>.main{
+    position: relative;
+}
+div.mainWrap>.main>.header{
+    width: 100%; min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+div.mainWrap>.main>.header>h2{
+    font-size: 48px;
+    line-height: 80px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+    margin-top: 160px;
+    position: absolute;
+    z-index: 999;
+}
+div.mainWrap>.main>.header>h2>span{
+    text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 2px #fff;
+}
+div.mainWrap>.main>.header>h2:hover{
+    text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 2px #fff;
+    transition: 0.3s;
+}
+div.mainWrap>.main>input{}
+div.mainWrap>.main>.section{
+    min-width: 800px;
+    overflow: hidden;
+    position: relative;
+}
+div.mainWrap>.main>.section>.artGroup{}
+div.mainWrap>.main>.section>.artGroup>.article{
+    width: 400%;
+    position: relative;
+    transition: 0.5s;
+}
+
+#p1:checked~.section>.artGroup>.article{left: 0;}
+#p2:checked~.section>.artGroup>.article{left: -100%;}
+#p3:checked~.section>.artGroup>.article{left: -200%;}
+#p4:checked~.section>.artGroup>.article{left: -300%;}
+
+div.mainWrap>.main>.section>.artGroup>.at1{}
+div.mainWrap>.main>.section>.artGroup>.at2{}
+div.mainWrap>.main>.section>.artGroup>.at3{}
+div.mainWrap>.main>.section>.artGroup>.at4{}
+
+div.mainWrap>.main>.section>.artGroup>.article>.mnimage{
+    width: 25%; min-width: 800px;
+    height: 880px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+div.mainWrap>.main>.section>.artGroup>.article>.i1{background-image: url(../img/lego_sub3_main.png);}
+div.mainWrap>.main>.section>.artGroup>.article>.i2{background-image: url(../img/lego_sub5_kidsz.jpg);}
+div.mainWrap>.main>.section>.artGroup>.article>.i3{background-image: url(../img/lego_extra02.jpg);}
+div.mainWrap>.main>.section>.artGroup>.article>.i4{background-image: url(../img/lego_extra01.jpg);}
+
+div.mainWrap>.main>.section>.artGroup>.article>.mnimage>.texts{
+    min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 320px;
+}
+div.mainWrap>.main>.section>.artGroup>.article>.mnimage>.texts>.textbox{
+    font-family: 'Noto Sans KR';
+    background-color: rgba(0,0,0,0.6);
+    width: 430px; height: 440px;
+    position: relative;
+    cursor: pointer;
+}
+div.mainWrap>.main>.section>.artGroup>.article>.mnimage>.texts>.textbox:hover{
+    background-color: rgba(0,0,0,0.75);
+    transition: 0.3s;
+}
+
+div.mainWrap>.main>.section>.artGroup>.article>.mnimage>.texts>.textbox>h3{
+    font-size: 36px;
+    line-height: 40px;
+    color: #fff;
+    text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 2px #fff;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+div.mainWrap>.main>.section>.artGroup>.article>.mnimage>.texts>.textbox:hover>h3{
+    text-shadow: 0 -2px 4px #fff, 2px 2px 12px #fff, 0 0 8px #fff;
+}
+div.mainWrap>.main>.section>.artGroup>.article>.mnimage>.texts>.textbox>h5{
+    font-size: 16px;
+    line-height: 40px;
+    color: #fff;
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 2px #fff;
+    padding-left: 40px;
+}
+div.mainWrap>.main>.section>.artGroup>.article>.mnimage>.texts>.textbox:hover>h5{
+    color: #000;
+}
+div.mainWrap>.main>.section>.artGroup>.article>.mnimage>.texts>.textbox>p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+div.mainWrap>.main>.section>.artGroup>.article>.mnimage>.texts>.textbox:hover>p{
+    font-weight: 500;
+    color: #ccc;
+}
+
+/* MAIN BUTTON *//* MAIN BUTTON *//* MAIN BUTTON */
+/* MAIN BUTTON *//* MAIN BUTTON *//* MAIN BUTTON */
+div.mainWrap>.main>.btns{
+    width: 100%; min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+    position: relative;
+    top: -240px;
+    padding-bottom: 40px;
+}
+div.mainWrap>.main>.btns>.pagenation{}
+div.mainWrap>.main>.btns>ul{
+    margin-left: 40px;
+}
+div.mainWrap>.main>.btns>ul::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+div.mainWrap>.main>.btns>ul>li{
+    font-family: 'Noto Sans KR';
+    font-size: 16px;
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+    text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 2px #fff;
+    width: 70px;     height: 40px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 8px #fff, inset 0px 0px 8px #fff;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+}
+div.mainWrap>.main>.btns>ul>li:hover{
+    box-shadow: 0 0 20px #fff, inset 0px 0px 5px #fff;
+    font-weight: 500;
+    text-shadow: 0 0 5px #fff;
+}
+div.mainWrap>.main>.btns>ul>li>label{
+    display: block;
+    height: 100%;
+    cursor: pointer;
+}
+
+#p1:checked~.btns>.pagenation>li:nth-child(1){
+    background-color: rgba(193, 255, 239, 0.3); 
+    font-weight: 700;
+}
+#p2:checked~.btns>.pagenation>li:nth-child(2){
+    background-color: rgba(193, 255, 239, 0.3); 
+    font-weight: 700;
+}
+#p3:checked~.btns>.pagenation>li:nth-child(3){
+    background-color: rgba(193, 255, 239, 0.3); 
+    font-weight: 700;
+}
+#p4:checked~.btns>.pagenation>li:nth-child(4){
+    background-color: rgba(193, 255, 239, 0.3); 
+    font-weight: 700;
+}
+
+/* MAIN BUTTON *//* MAIN BUTTON *//* MAIN BUTTON */
+div.mainWrap>.main>.btns>.btn{
+    text-align: right;
+    margin-top: 40px;
+}
+div.mainWrap>.main>.btns>.btn>button{
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    font-size: 14x;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0.6);
+    width: 160px;     height: 40px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #fff, inset 0px 0px 10px #fff;
+    cursor: pointer;
+    margin: 0 10px;
+}
+div.mainWrap>.main>.btns>.btn>button:hover{
+    box-shadow: 0 0 20px #fff, inset 0px 0px 5px #fff;
+    font-weight: 700;
+    text-shadow: 0 0 5px #fff;
+}
+
+/*COLLABO*//*COLLABO*//*COLLABO*//*COLLABO*//*COLLABO*/
+/*COLLABO*//*COLLABO*//*COLLABO*//*COLLABO*//*COLLABO*/
+div.collaboWrap{
+    width: 100%; min-width: 800px; max-width: 1080px;
+    margin: 0 auto 0;
+}
+div.collaboWrap>.collabo{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+div.collaboWrap>.collabo>.article{
+    display: flex;
+    margin: 0 10px;
+    width: calc(50% - 20px);
+}
+div.collaboWrap>.collabo>.at3{    margin-top: 40px;}
+div.collaboWrap>.collabo>.at4{    margin-top: 40px;}
+
+div.collaboWrap>.collabo>.article>.image{
+    width: 160px; min-width:160px; height: 160px;
+    border-radius: 80px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,1);
+    background-position: center;
+    cursor: pointer;
+}
+div.collaboWrap>.collabo>.article>.image:hover{
+    box-shadow: 0 0 10px #000, 15px 15px 30px rgba(0,0,0,1);
+    background-size: 165px;
+}
+div.collaboWrap>.collabo>.at1>.image{background-image: url(../img/lego_sub3_collabo01.png);}
+div.collaboWrap>.collabo>.at2>.image{background-image: url(../img/lego_sub3_collabo02.png);}
+div.collaboWrap>.collabo>.at3>.image{background-image: url(../img/lego_sub3_collabo03.png);}
+div.collaboWrap>.collabo>.at4>.image{background-image: url(../img/lego_sub3_collabo04.png);}
+
+div.collaboWrap>.collabo>.article>.texts{
+    font-family: 'Noto Sans KR';
+    color: #fff;
+    padding-left: 20px; padding-top: 10px;
+    cursor: pointer;
+}
+
+div.collaboWrap>.collabo>.article>.texts>h4{
+    font-size: 24px;
+    line-height: 40px; height: 40px;    overflow: hidden;
+}
+div.collaboWrap>.collabo>.article>.texts:hover>h4{
+    font-weight: 500;
+    text-shadow: 0 0 10px #fff;
+    transition: 0.3s;
+}
+div.collaboWrap>.collabo>.article>.texts>p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #ccc;
+    height: 80px;
+    overflow: hidden;
+}
+div.collaboWrap>.collabo>.article>.texts:hover>p{
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+/* SALE NOW *//* SALE NOW *//* SALE NOW *//* SALE NOW *//* SALE NOW */
+/* SALE NOW *//* SALE NOW *//* SALE NOW *//* SALE NOW *//* SALE NOW */
+div.saleWrap{    margin-top: 200px;}
+div.saleWrap>.salenow{}
+div.saleWrap>.salenow>.image{
+    background-image: url(../img/lego_sub3_sale.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto; min-width: 800px; height: 640px;
+    position: relative;
+    z-index: 5;
+}
+div.saleWrap>.salenow>.image>.texts{
+    width: 100%; min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+    color: #fff;
+    padding: 240px 10px 0;
+    position: relative;
+    z-index: 50;
+    cursor: pointer;
+}
+div.saleWrap>.salenow>.image>.texts>h3{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 80px;
+    color: rgba(255,255,255,0.5);
+    text-transform: uppercase;
+}
+
+div.saleWrap>.salenow>.image>.texts:hover>h3{
+    text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 2px #fff;
+    transition: 0.3s;
+}
+div.saleWrap>.salenow>.image>.texts:hover>h4{
+    color: #000;
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 2px #fff;
+    transition: 0.3s;
+}
+div.saleWrap>.salenow>.image>.texts>h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+}
+div.saleWrap>.salenow>.image>.black{
+    background-color: rgba(0,0,0,0.5);
+    width: 80%; min-width: 1490px;   height: 400px;
+    position: absolute;
+    top: 120px; right: 0;
+    z-index: 10;
+    cursor: pointer;
+}
+div.saleWrap>.salenow>.image>.black:hover{
+    background-color: rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+div.saleWrap>.salenow>.image>.texts:hover~.black{
+    background-color: rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+div.saleWrap>.salenow>.image>.btns{
+    width: 100%; min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+    text-align: right;
+    padding-bottom: 160px;
+}
+div.saleWrap>.salenow>.image>.btns>button{
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0.4);
+    width: 160px; height: 40px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #fff, inset 0px 0px 10px #fff;
+    margin-top: 80px;
+    cursor: pointer;
+    position: relative;
+    z-index: 50;
+}
+div.saleWrap>.salenow>.image>.btns>button:hover{
+    box-shadow: 0 0 20px #fff, inset 0px 0px 5px #fff;
+    font-weight: 700;
+    text-shadow: 0 0 5px #fff;
+}
+
+/* LAST MODELS *//* LAST MODELS *//* LAST MODELS *//* LAST MODELS */
+/* LAST MODELS *//* LAST MODELS *//* LAST MODELS *//* LAST MODELS */
+div.lastWrap{}
+div.lastWrap>.last{}
+div.lastWrap>.last>.header{
+    width: 100%; min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+}
+div.lastWrap>.last>.header>h2{
+    font-size: 48px;
+    line-height: 80px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 240px;
+}
+div.lastWrap>.last>.header>h2:hover{
+    text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 2px #fff;
+    transition: 0.3s;
+}
+div.lastWrap>.last>.header>h2>span{
+    text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 2px #fff;
+}
+div.lastWrap>.last>.header>.btn{
+    text-align: right;
+}
+div.lastWrap>.last>.header>.btn>button{
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    font-size: 14x;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0);
+    width: 160px;     height: 40px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #fff, inset 0px 0px 10px #fff;
+    cursor: pointer;
+}
+div.lastWrap>.last>.header>.btn>button:hover{
+    box-shadow: 0 0 20px #fff, inset 0px 0px 5px #fff;
+    font-weight: 700;
+    text-shadow: 0 0 5px #fff;
+}
+div.lastWrap>.last>.section{
+    width: 100%; min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    position: static;
+    display: flex;
+}
+div.lastWrap>.last>.section>.article{
+    width: calc(25% - 20px);
+    margin: 0 10px;
+    margin-top: 40px;
+}
+div.lastWrap>.last>.section>.article>.image{
+    width: 100%; height: 200px;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 10px rgba(0,0,0,1);
+}
+div.lastWrap>.last>.section>.article>.image:hover{
+    background-size: 255px;
+    box-shadow: 0 0 10px #000, 10px 10px 20px rgba(0,0,0,1);
+}
+div.lastWrap>.last>.section>.at1>.image{background-image: url(../img/lego_sub3_last01.png);}
+div.lastWrap>.last>.section>.at2>.image{background-image: url(../img/lego_sub3_last02.png);}
+div.lastWrap>.last>.section>.at3>.image{background-image: url(../img/lego_sub3_last03.png);}
+div.lastWrap>.last>.section>.at4>.image{background-image: url(../img/lego_sub3_last04.png);}
+
+div.lastWrap>.last>.section>.article>.texts{
+    font-family: 'Noto Sans KR';
+    line-height: 20px;
+    margin: 20px 10px 0;
+    cursor: pointer;
+}
+div.lastWrap>.last>.section>.article>.texts>h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: #fff;
+    height: 40px;    overflow: hidden;
+}
+div.lastWrap>.last>.section>.article>.texts:hover>h5{
+    font-size: 16.5px;
+}
+div.lastWrap>.last>.section>.article>.texts>p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #ccc;
+    height: 80px;    overflow: hidden;
+    padding-left: 5px;
+}
+div.lastWrap>.last>.section>.article>.texts:hover>p{
+    font-size: 14.5px;
+    text-decoration: underline;
+}
+
+/* BANNER *//* BANNER *//* BANNER *//* BANNER *//* BANNER */
+/* BANNER *//* BANNER *//* BANNER *//* BANNER *//* BANNER */
+div.banner{
+    margin-top: 160px;
+}
+div.banner>.image{
+    background-image: url(../img/lego_sub3_banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; min-width: 800px; height: 200px;    
+    cursor: pointer;
+}
+div.banner>.image:hover{
+    box-shadow: inset 0px 0px 40px #fff;
+    transition: 0.3s;
+}
+div.banner>.image>.texts{
+    width: 100%; min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+div.banner>.image:hover>.texts{
+    text-shadow: 0 0 10px #fff;
+    transition: 0.3s;
+}
+div.banner>.image>.texts>h3{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 80px;
+    color: rgba(255,255,255,0.75);
+}
+div.banner>.image>.texts>h5{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    color: #fff;
+}

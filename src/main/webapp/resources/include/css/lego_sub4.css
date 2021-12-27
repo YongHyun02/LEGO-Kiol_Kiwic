@@ -1,0 +1,449 @@
+body{
+    background-color: #1d1d1d;
+    color: #000;
+}
+/* HEADER *//* HEADER *//* HEADER */
+div.pagetitle{
+    position: relative;
+    width: 100%; min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 160px 0 80px;
+}
+div.pagetitle>div{
+    float: left;
+}
+div.pagetitle>.tri{
+    width: 0px;
+    height: 0px;
+    border-bottom: 40px solid transparent;
+    border-left: 35px solid #cccccc;
+}
+div.pagetitle>h2{
+    font-size: 48px;
+    line-height: 80px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* content01 *//* content01 *//* content01 */
+/* content01 *//* content01 *//* content01 */
+div.con1{
+    background-color: #ccc;
+    width: 100%; min-width: 800px;
+    padding: 80px 0;
+}
+div.con1>.wrap{
+    width: 100%;
+    min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+div.con1>.wrap>.header{
+    font-family: 'Noto Sans KR';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: right;
+    color: #000;
+    overflow: hidden;
+    float: right;
+    position: relative;
+}
+div.con1>.wrap>.header>div{
+    float: left;
+}
+div.con1>.wrap>.header>.conheader{
+    padding: 0 10px;
+    position: relative;
+    z-index: 10;
+}
+div.con1>.wrap>.header>.tri{
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid transparent;
+    border-right: 30px solid #fc3;
+    position: absolute;
+    bottom: 0; right: 0;
+    z-index: 5;
+}
+
+div.con1>.section{
+    width: 100%;
+    min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 80px;
+    position: relative;
+}
+div.con1>.section>.secL{
+    position: relative;
+}
+div.con1>.section>.secL>.tri{
+    width: 0px;
+    height: 0px;
+    border-bottom: 40px solid transparent;
+    border-left: 40px solid #fc3;
+    display: block;
+    position: absolute;
+    left: -8px; top: -8px;
+}
+div.con1>.section>.secL>.i1{
+    background-image: url(../img/lego_sub4_order.png);
+    width: 430px; height: 280px;
+    background-position: center;
+    cursor: pointer;
+}
+div.con1>.section>.secL>.i1:hover{
+    background-size: 435px;
+    box-shadow: 4px 4px 8px #000;
+}
+div.con1>.section>.secL>p{
+    font-family: 'Noto Sans KR';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+div.con1>.section>.secR{
+    margin-left: 40px;
+}
+div.con1>.section>.secR>p{
+    font-family: 'Noto Sans KR';
+    font-size: 14px;
+    line-height: 40px;
+}
+div.con1>.section>.i2{
+    background-image: url(../img/lego_sub4_joker.png );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 130px; height: 200px;
+    position: absolute;
+    bottom: -20px; right: 0;
+}
+div.con1>.btns{
+    width: 100%; min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+div.con1>.btns>button{
+    font-family: 'Noto Sans KR';
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #fbfbfb;
+    width: 160px; 
+    border: 1px solid #000;
+    float: right;
+    margin-left: 10px; margin-top: 40px;
+    cursor: pointer;
+}
+div.con1>.btns>button:hover{
+    background-color: #7d7d7d;
+    color: #fff;
+}
+
+
+/* content02 *//* content02 *//* content02 */
+/* content02 *//* content02 *//* content02 */
+div.con2{
+    background-color: #ccc;
+    width: 100%; min-width: 800px;
+    padding: 80px 0;
+    margin-top: 160px;
+}
+div.con2>.wrap{
+    width: 100%;
+    min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+div.con2>.wrap>.header{
+    font-family: 'Noto Sans KR';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: right;
+    color: #000;
+    overflow: hidden;
+    float: right;
+    position: relative;
+}
+div.con2>.wrap>.header>div{
+    float: left;
+}
+div.con2>.wrap>.header>.conheader{
+    padding: 0 10px;
+    position: relative;
+    z-index: 10;
+}
+div.con2>.wrap>.header>.tri{
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid transparent;
+    border-right: 30px solid #c00;
+    position: absolute;
+    bottom: 0; right: 0;
+    z-index: 5;
+}
+
+div.con2>.section{
+    width: 100%;
+    min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 40px;
+    position: relative;
+}
+div.con2>.section>.secL{
+    position: relative;
+}
+div.con2>.section>.secL>.tri{
+    width: 0px;
+    height: 0px;
+    border-bottom: 40px solid transparent;
+    border-left: 40px solid #c00;
+    display: block;
+    position: absolute;
+    left: -8px; top: -8px;
+}
+div.con2>.section>.secL>.i1{
+    width: 250px; height: 120px;
+    background-position: center;
+    cursor: pointer;
+}
+div.con2>.section>.secL>.i1:hover{
+    background-size: 255px;
+    box-shadow: 4px 4px 8px #000;
+}
+div.con2>.sec1>.secL>.i1{    background-image: url(../img/lego_sub4_buy01.png);}
+div.con2>.sec2>.secL>.i1{    background-image: url(../img/lego_sub4_buy02.png);}
+div.con2>.sec3>.secL>.i1{    background-image: url(../img/lego_sub4_buy03.png);}
+
+div.con2>.section>.secR{
+    margin-left: 20px;
+}
+div.con2>.section>.secR>p{
+    font-family: 'Noto Sans KR';
+    font-size: 14px;
+    line-height: 20px;
+    width: 480px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+div.con2>.section>.secR>p:hover{
+    font-weight: 700;
+}
+
+div.con2>.section>.btns{
+    overflow: hidden;
+    padding-top: 40px;
+    position: absolute;
+    right: 0; bottom: 20px;
+}
+div.con2>.section>.btns>button{
+    font-family: 'Noto Sans KR';
+    font-size: 12px;
+    line-height: 40px;
+    background-color: #a0a0a0;
+    width: 70px; 
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+}
+div.con2>.section>.btns>button:hover{
+    background-color: #7d7d7d;
+    color: #fff;
+}
+div.con2>.bt{
+    width: 100%; min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+div.con2>.bt>button{
+    font-family: 'Noto Sans KR';
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #fbfbfb;
+    width: 520px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+div.con2>.bt>button:hover{
+    background-color: #7d7d7d;
+    color: #fff;
+}
+
+
+/* content03 *//* content03 *//* content03 */
+/* content03 *//* content03 *//* content03 */
+div.con3{
+    background-color: #ccc;
+    width: 100%; min-width: 800px;
+    padding: 80px 0;
+    margin-top: 160px;
+}
+div.con3>.wrap{
+    width: 100%;
+    min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+div.con3>.wrap>.header{
+    font-family: 'Noto Sans KR';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: right;
+    color: #000;
+    overflow: hidden;
+    float: right;
+    position: relative;
+}
+div.con3>.wrap>.header>div{
+    float: left;
+}
+div.con3>.wrap>.header>.conheader{
+    padding: 0 10px;
+    position: relative;
+    z-index: 10;
+}
+div.con3>.wrap>.header>.tri{
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid transparent;
+    border-right: 30px solid #060;
+    position: absolute;
+    bottom: 0; right: 0;
+    z-index: 5;
+}
+
+/*section*//*section*//*section*/
+div.title{
+    width: 100%;
+    min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+}
+div.title>h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: 40px;
+}
+div.con3>.section{
+    width: 100%; min-width: 800px; max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+div.con3>.section>.secL{
+    width: 50%; min-width: 400px;
+    padding-right: 20px;
+    position: relative;
+}
+div.con3>.section>.secL>.p1{
+    font-family: 'Noto Sans KR';
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+}
+div.con3>.section>.secL>.p2{
+    margin-top: 40px;
+    position: relative;
+}
+div.con3>.section>.secL>.p2>.tri{
+    width: 0px;
+    height: 0px;
+    border-bottom: 40px solid transparent;
+    border-left: 40px solid #060;
+    position: absolute;
+    left: -8px;
+}
+div.con3>.section>.secL>.p2>ul{}
+div.con3>.section>.secL>.p2>ul>li{
+    font-family: 'Noto Sans KR';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px;
+    position: relative;
+    text-decoration: underline; text-underline-position:under;
+}
+div.con3>.section>.secL>.p2>ul>li:hover{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+div.con3>.section>.secL>.i1{
+    background-image: url(../img/lego_sub4_explorer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px; height: 180px;
+    position: absolute;
+    bottom: 0;left: -10px;
+}
+div.con3>.section>.secL>.btns{}
+div.con3>.section>.secL>.btns>button{
+    font-family: 'Noto Sans KR';
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #fbfbfb;
+    width: 160px; 
+    border: 1px solid #000;
+    float: right;
+    margin-top: 160px;
+    cursor: pointer;
+}
+div.con3>.section>.secL>.btns>button:hover{
+    background-color: #7d7d7d;
+    color: #fff;
+}
+
+div.con3>.section>.secR{
+    width: 50%;
+}
+div.con3>.section>.secR>div{
+    float: right;
+}
+div.con3>.section>.secR>.i2{
+    background-image: url(../img/lego_sub4_qna.png);
+    width: 100%; height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+div.con3>.section>.secR>.i2>h3{
+    padding-top: 160px;
+}
+div.con3>.section>.secR>.i2:hover{
+    box-shadow: 4px 4px 8px #000;
+    background-size: 110%;
+    text-decoration: underline; text-underline-position:under;
+}
+
+div.con3>.section>.secR>.btns{
+    position: static;
+}
+div.con3>.section>.secR>.btns>button{
+    font-family: 'Noto Sans KR';
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #fbfbfb;
+    width: 160px;
+    border: 1px solid #000;
+    margin-top: 40px;
+    cursor: pointer;
+}
+div.con3>.section>.secR>.btns>button:hover{
+    background-color: #7d7d7d;
+    color: #fff;
+}
